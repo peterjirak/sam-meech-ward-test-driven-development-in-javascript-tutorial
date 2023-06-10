@@ -4,8 +4,10 @@ function validatePassword(password) {
     }
     password = `${password}`;
     if (password.length >= 8) {
-        if (password.match(/[a-zA-Z0-9]/)) {
-            return true;
+        if (password.match(/[a-zA-Z]/)) {
+            if (password.match(/[0-9]/)) {
+                return true;
+            }
         }
     }
     return false;
