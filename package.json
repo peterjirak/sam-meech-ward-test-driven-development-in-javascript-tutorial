@@ -1,0 +1,11 @@
+{
+  "name": "sam-meech-ward-test-driven-development-in-javascript-tutorial",
+  "version": "1.0.0",
+  "description": "I am reviewing test driven development. I created this JavaScript project with npm init to follow along with Sam Meech-Ward's test-Driven Development tutorial. Link: https://www.youtube.com/watch?v=89Pl2Uok8xc",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
