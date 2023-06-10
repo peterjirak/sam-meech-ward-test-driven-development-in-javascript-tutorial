@@ -23,3 +23,9 @@ test("return false given a password that is 8 characters or longer, but contains
         expect(validatePassword('abcdefgh')).toBe(false);
     }
 );
+
+test("return false given a password that contains numbers and letters but is fewer than 8 characters",
+    () => {
+        expect(validatePassword('1b3d5e7')).toBe(false);
+    }
+);
