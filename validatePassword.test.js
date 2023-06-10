@@ -9,6 +9,7 @@ test("return false given an empty string",
 test("return true given a password of 8 characters or longer, a letter, and a number",
      () => {
         expect(validatePassword('1234567a')).toBe(true);
+        expect(validatePassword('1234567A')).toBe(true);
      }
 );
 
